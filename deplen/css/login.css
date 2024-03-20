@@ -1,0 +1,124 @@
+*{    margin: 0;    padding: 0;}
+body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(200deg,#f3e7e9,#e3eeff);
+}
+.all{
+	height: 415px;
+	width: 650px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	position: relative;
+	background-color: aliceblue;
+}
+.all1{
+	position: absolute;
+	top: -10%;
+	left: 5%;
+	background-color: #979FFF;
+	width: 320px;
+	height: 500px;
+	border-radius: 5px;
+	box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 2;
+	transition: 0.5s ease-in-out;
+}
+ .denglu,.zhuce{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+} 
+.hid{
+	display: none;
+	transition: 0.5s;
+}
+input{    background-color: transparent;    width: 70%;    color: #fff;    border: none;    border-bottom: 1px solid rgba(255,255,255,0.4);    padding: 10px 0;    text-indent: 10px;    margin: 8px 0;    font-size: 14px;    letter-spacing: 2px;}
+
+h1{
+	text-align: center;
+	margin-bottom: 25px;
+	color: #fff;
+	letter-spacing: 5px;
+}
+input::placeholder{
+	color: #fff;
+}
+input:focus{
+	color: #fff;
+	outline: none;
+	border-bottom: 1px solid #0A69FF;
+	transition: 0.5s;
+}
+input:focus::placeholder{
+    opacity: 0;
+}
+.all1 button{
+	width: 70%;
+	margin-top: 35px;
+	background-color: #f6f6f6;
+	outline: none;
+	border-radius: 8px;
+	color: #3EBFFF;
+	padding: 13px;
+	letter-spacing: 2px;
+	border: none;
+	cursor: pointer;
+}
+.all1 button:hover{
+	background-color: #3F97FF;
+	color: #f6f6f6;
+	transition: background-color 0.5s ease;
+}
+.bigbox{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.bigbox.le{
+	left: -2%;
+}
+.bigbox.ri{
+	right: -2%;
+}
+.bigbox h2{
+	color: #8e9aaf;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 4px;
+	letter-spacing: 3px;
+}
+.bigbox p{
+	font-size: 12px;
+	letter-spacing: 2px;
+	color: #8e9aaf;
+	text-align: center;
+}
+.bigbox span{    color: #B1F0FF;}.bigbox img{    width: 150px;    height: 150px;    opacity: 0.9;    margin: 40px 0;}
+.bigbox button{
+	margin-top: 3%;
+	background-color: #fff;
+	color: #3EBFFF;
+	border: 1px solid #28DEB4;
+	padding: 6px 10px;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	outline: none;
+	cursor: pointer;
+}
+.bigbox button:hover{
+	background-color: #3F97FF;
+	color: #fff;
+} 
